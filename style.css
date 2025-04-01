@@ -100,9 +100,9 @@
             height: 125px;
             border-radius: 75%;
             object-fit: cover;
-            position: absolute; /* Change to absolute */
+            position: static; /* Change to absolute */
             top : 5px; /* Adjust this value to position the image */
-            left: 300px; /* Adjust this value to position the image */
+            left: 1px; /* Adjust this value to position the image */
             border-radius: 5px;
         }
         .fa-github{
@@ -112,14 +112,11 @@
             font-size: 40px;
             margin: 0 70px;
             padding: 10px;
+            transition: all 0.5s ease-in-out;
             position: relative;
             top: 0px;
-            left: 500px;
-            bottom: 100px;
-            transition: all 0.5s ease-in-out;
-            align-items: center;
-            justify-content: center;
-            display: flex;
+            left: 100px;
+            
 
         }
         .fa-github:hover{
@@ -136,23 +133,22 @@
             transition: all 0.5s ease-in-out;
             position: relative;
             top: 0px;
-            left: 400px;
+            left: 00px;
         }
         .fa-linkedin:hover{
             color: #000;
         }
     .fa-square-envelope{
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            font-size: 40px;
-            margin: 0 70px;
-            padding: 10px;
-            transition: all 0.5s ease-in-out;
-            position: relative;
-            top: 0px;
-            left: 300px;
-
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 40px;
+        margin: 0 70px;
+        padding: 10px;
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 00px;
         }
         .fa-square-envelope:hover{
             color: #000;
@@ -179,28 +175,11 @@
         }
 
         .section-content {
-            background-color: #f8f3f3;
             padding: 20px;
-            border-radius: 40px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin: 20px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.2rem;
-            font-weight: 300;
-            line-height: 1.5;
-            color: #333;
-            width: 40%; 
-            height: 800%;
-            border: 2px solid black;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            position: relative;
-            top: 15px;
-            left: 30%;
-            right: 50%;
-            bottom: 50px;            
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);           
         }
 
         .button-hover{
