@@ -110,12 +110,8 @@
             text-align: center;
             text-decoration: none;
             font-size: 40px;
-            margin: 0 70px;
-            padding: 10px;
-            transition: all 0.5s ease-in-out;
-            position: relative;
-            top: 0px;
-            left: 100px;
+            margin: 0 60px;
+            
             
 
         }
@@ -128,27 +124,19 @@
             text-align: center;
             text-decoration: none;
             font-size: 40px;
-            margin: 0 70px;
-            padding: 10px;
-            transition: all 0.5s ease-in-out;
-            position: relative;
-            top: 0px;
-            left: 00px;
+            margin: 0 60px;
         }
         .fa-linkedin:hover{
             color: #000;
         }
     .fa-square-envelope{
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        font-size: 40px;
-        margin: 0 70px;
-        padding: 10px;
-        transition: all 0.5s ease-in-out;
-        position: relative;
-        top: 0px;
-        left: 00px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 40px;
+            margin: 0 60px;       
+            
+            
         }
         .fa-square-envelope:hover{
             color: #000;
